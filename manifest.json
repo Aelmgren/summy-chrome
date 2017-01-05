@@ -1,0 +1,22 @@
+{
+  "name": "Summy",
+  "description": "Right clicking a link to an article provides an option to summarize it's content",
+  "version": "0.7",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "http://192.168.99.100/*"
+  ],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["jquery-3.1.1.min.js",
+      "bg-script.js"
+    ]
+  },
+  "manifest_version": 2
+}
